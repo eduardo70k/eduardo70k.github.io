@@ -5,8 +5,11 @@ html {
 
 body {
 	margin: 30px;
-	margin: 70px auto;
 	background-color: #ECEFF1;
+}
+
+p {
+	margin: 50px auto;
 }
 
 img {
