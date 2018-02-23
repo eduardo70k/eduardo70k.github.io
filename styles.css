@@ -6,7 +6,6 @@ html {
 
 body {
 	background-color: #ECEFF1;
-	min-height: 100%;
 	position: relative;
 	max-width: 100%;
 }
@@ -16,7 +15,7 @@ strong {
 }
 
 img {
-	position: absolute;
+	position: relative;
 	left: 70%;
 	border-radius: 50%;
 	margin: 50px auto;
