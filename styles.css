@@ -11,6 +11,7 @@ body {
 
 p {
 	position: absolute;
+	margin: 50px auto;
 }
 
 strong {
