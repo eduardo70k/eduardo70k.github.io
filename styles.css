@@ -9,11 +9,15 @@ body {
 	min-height: 100%;
 	padding: 20px 20px 20px;
 	position: relative;
-	max-width: 
+	max-width: 100%;
 }
 
 p {
 	margin: 100px auto;
+}
+
+strong {
+	background-color: #009688;
 }
 
 h1 {
