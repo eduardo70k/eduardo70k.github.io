@@ -28,6 +28,7 @@ strong {
 	display: table-cell;
 	float: left;
 	max-height: 300px;
-	margin: top;
+	margin top: -50px;
 	position: relative;
+
 }
