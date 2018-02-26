@@ -27,5 +27,5 @@ strong {
 .texto {
 	display: table-cell;
 	float: left;
-	width: 300px;
+	max-height: 300px;
 }
