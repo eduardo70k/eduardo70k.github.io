@@ -6,19 +6,15 @@ html {
 
 body {
 	background-color: #ECEFF1;
-	max-width: 100%;
+	max-width: 960px;
+	margin: auto;
 }
 
-p {
-	padding: 30px 0 0;
-}
 strong {
 	color: #009688;	
 }
 
 img {
 	position: relative;
-	left: 70%;
 	border-radius: 50%;
-	margin: 50px auto;
 }
