@@ -26,4 +26,6 @@ strong {
 
 .texto {
 	display: table-cell;
+	float: left;
+	width: 300px;
 }
