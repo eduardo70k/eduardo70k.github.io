@@ -21,6 +21,7 @@ strong {
 .imagem {
 	display: table-cell;
 	float: left;
+	position: relative;
 }
 
 .texto {
@@ -28,4 +29,5 @@ strong {
 	float: left;
 	max-height: 300px;
 	margin: top;
+	position: relative;
 }
