@@ -10,11 +10,19 @@ body {
 	margin: auto;
 }
 
+.conteudo {
+	display: table;
+}
+
 strong {
 	color: #009688;	
 }
 
 img {
-	position: relative;
+	display: table-cell;
 	border-radius: 50%;
+}
+
+.texto {
+	display: table-cell;
 }
