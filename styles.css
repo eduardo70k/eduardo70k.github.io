@@ -18,14 +18,18 @@ strong {
 	color: #009688;	
 }
 
+.imagem {
+	display: table-cell;
+	float: left;
+	position: absolute;
+	width: 50%;
+}
+
 .texto {
 	display: table-cell;
 	float: left;
 	max-height: 300px;
 	margin top: -50px;
 	position: relative;
-}
 
-p {
-	margin top: -60px;
 }
