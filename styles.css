@@ -7,7 +7,6 @@ html {
 body {
 	background-color: #ECEFF1;
 	max-width: 960px;
-	margin: auto;
 }
 
 .conteudo {
@@ -20,7 +19,6 @@ strong {
 
 .imagem {
 	display: table-cell;
-	border-radius: 50%;
 	float: left;
 }
 
@@ -28,4 +26,5 @@ strong {
 	display: table-cell;
 	float: left;
 	max-height: 300px;
+	margin: top;
 }
