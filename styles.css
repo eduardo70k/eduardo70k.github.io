@@ -21,8 +21,6 @@ strong {
 .imagem {
 	display: table-cell;
 	float: left;
-	position: absolute;
-	width: 50%;
 }
 
 .texto {
