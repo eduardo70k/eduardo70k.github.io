@@ -9,6 +9,9 @@ body {
 	max-width: 100%;
 }
 
+p {
+	margin: 80px auto;
+}
 strong {
 	color: #009688;	
 }
