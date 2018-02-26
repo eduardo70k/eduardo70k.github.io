@@ -18,9 +18,10 @@ strong {
 	color: #009688;	
 }
 
-img {
+.imagem {
 	display: table-cell;
 	border-radius: 50%;
+	float: left;
 }
 
 .texto {
