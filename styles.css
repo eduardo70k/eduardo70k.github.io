@@ -1,17 +1,21 @@
 html {
 	font-size: 20px;
 	font-family: "Arial";
-	background-color: #FFFFFF;
+	background-color: #ECEFF1;
 }
 
 body {
-	background: #ECEFF1;
+	background-color: #ffffff;
 	max-width: 960px;
 	margin: auto;
 }
 
 .conteudo {
 	display: table;
+	margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .imagem {
@@ -29,4 +33,31 @@ body {
 
 strong {
 	color: #009688;	
+}
+
+.botao1 {
+	float: left;
+	margin-left:20px;
+	display: inline-block;
+	padding: 15px 20px;
+	border: 5px solid #ECEFF1;
+}
+
+.botao2 {
+	float: left;
+	margin-left:20px;
+	display: inline-block;
+	padding: 15px 20px;
+	border: 5px solid #BDBDBD;
+	background-color: #ECEFF1;
+	color: #BDBDBD;
+	text-decoration: none;
+}
+
+.botao3 {
+	float: left;
+	margin-left:20px;
+	display: inline-block;
+	padding: 15px 20px;
+	border: 5px solid #ECEFF1;
 }
