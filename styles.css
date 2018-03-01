@@ -15,13 +15,11 @@ body {
 }
 
 .imagem {
-	display: table-cell;
 	float: left;
 	max-width: 100%;
 }
 
 .texto {
-	display: table-cell;
 	float: left;
 	width: 500px;
 	margin-left: 20px;
