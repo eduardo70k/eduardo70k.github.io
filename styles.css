@@ -1,6 +1,6 @@
 html {
 	font-size: 20px;
-	font-family: "Arial";
+	font-family: 'Lato';
 	background-color: #ECEFF1;
 }
 
@@ -11,11 +11,7 @@ body {
 }
 
 .conteudo {
-	display: table;
-	margin-right: auto;
-  margin-left: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+	display: table;  
 }
 
 .imagem {
@@ -37,27 +33,28 @@ strong {
 
 .botao1 {
 	float: left;
-	margin-left:20px;
+	margin-left:50px;
 	display: inline-block;
 	padding: 15px 20px;
-	border: 5px solid #ECEFF1;
-}
-
-.botao2 {
-	float: left;
-	margin-left:20px;
-	display: inline-block;
-	padding: 15px 20px;
-	border: 5px solid #BDBDBD;
+	border: 5px solid #009688;
+	border-radius: 5px;
 	background-color: #ECEFF1;
 	color: #BDBDBD;
 	text-decoration: none;
 }
 
-.botao3 {
-	float: left;
-	margin-left:20px;
-	display: inline-block;
-	padding: 15px 20px;
-	border: 5px solid #ECEFF1;
+.botao1:hover {
+	background-color: #009688;
+	color: #ffffff;
 }
+
+footer {
+	clear: both;
+	background-color: #009688;
+	padding: 10px;
+}
+
+p.footer {
+	padding: 0 300px;
+}
+
