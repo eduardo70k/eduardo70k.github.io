@@ -1,91 +1,96 @@
 html {
-	font-size: 20px;
-	font-family: 'Lato',Arial;
-	background-color: #ECEFF1;
+    font-size: 20px;
+    font-family: 'Lato',Arial;
+    background-color: #ECEFF1;
 }
 
 body {
-	background-color: #ffffff;
-	max-width: 960px;
-	margin: auto;
+    background-color: #ffffff;
+    max-width: 960px;
+    margin: auto;
 }
 
 .conteudo {
-	display: table;  
+    display: table;  
+}
+
+h1 {
+    margin: 20px;
 }
 
 .imagem {
-	float: left;
-	max-width: 100%;
+    float: left;
+    max-width: 100%;
+    margin: 20px;
 }
 
 .texto {
-	float: left;
-	width: 500px;
-	margin-left: 20px;
+    float: left;
+    width: 500px;
+    margin-left: 20px;
 }
 
 strong {
-	color: #009688;	
+    color: #009688; 
 }
 
 .botao1 {
-	float: left;
-	margin-left:50px;
-	display: inline-block;
-	padding: 15px 20px;
-	border: 5px solid #009688;
-	border-radius: 5px;
-	background-color: #ECEFF1;
-	color: #BDBDBD;
-	text-decoration: none;
+    float: left;
+    margin-left:50px;
+    display: inline-block;
+    padding: 15px 20px;
+    border: 5px solid #009688;
+    border-radius: 5px;
+    background-color: #ECEFF1;
+    color: #BDBDBD;
+    text-decoration: none;
 }
 
 .botao1:hover {
-	background-color: #009688;
-	color: #ffffff;
+    background-color: #009688;
+    color: #ffffff;
 }
 
 footer {
-	clear: both;
-	background-color: #009688;
-	padding: 10px;
+    clear: both;
+    background-color: #009688;
+    padding: 10px;
 }
 
 p.footer {
-	text-align: center;
+    text-align: center;
 }
 
 @media (max-width: 640px) {
   .conteudo {
-  	display: block;
+    display: block;
   }
   .imagem {
-  	float: initial;
-  	max-width: initial;
-  	padding: 0 60px;
+    float: initial;
+    max-width: initial;
+    padding: 0 60px;
   }
   .imagem img {
-  	width: 100%;
+    width: 100%;
   }
   .texto {
-  	float: none;
-  	width: auto;
-  	margin: 0;
-  	padding: 0 20px;
+    float: none;
+    width: auto;
+    margin: 0;
+    padding: 0 20px;
   }
   p.footer {
-  	padding: 0;
+    padding: 0;
   }
   .botao1 {
-  	float: none;
-  	margin: 0 20px 20px 20px;
-  	display: block;
+    float: none;
+    margin: 0 20px 20px 20px;
+    display: block;
   }
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
-	.imagem img {
-		width: 170px;
-	}
+    .imagem img {
+     width: 170px;
+  }
 }
